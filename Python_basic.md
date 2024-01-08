@@ -29,3 +29,28 @@ students = {
 }
 
 ```
+
+For each one, we do not have to tell Python what type of variable it is. If it’s a number and it does not have a decimal point, it is going to assume that it is an integer; otherwise, it is a float number. If it has a simple or double comma (‘ or “), it is assumed to be a string. 
+
+For the list or the dictionary, there are different types of containers. In those cases, they have several different variables declared inside of them, so they can be referred to as a container of containers, and they have to be addressed differently than a simple variable. For example:
+
+```python
+
+print(name)
+print(grocery_list[0])
+
+print("Student 4:")
+print("Age:", students['student4']['age'])
+print("Gender:", students['student4']['gender'])
+print("Major:", students['student4']['major'])
+```
+
+```
+My name is Mayra
+Item 1
+
+Student 4:
+Age: 23
+Gender: non-binary
+Major: Engineering
+```
