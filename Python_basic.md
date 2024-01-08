@@ -45,6 +45,8 @@ print("Gender:", students['student4']['gender'])
 print("Major:", students['student4']['major'])
 ```
 
+The output of the last code will be:
+
 ```
 My name is Mayra
 Item 1
@@ -54,3 +56,12 @@ Age: 23
 Gender: non-binary
 Major: Engineering
 ```
+
+For simple variables like 'name', we can just call the variable's name. For the list and dictionaries, we need to have an awareness of the amount of objects that it has, so we can call them by their index. This is easy when we can keep track of the amount of things inside these types of containers. For the cases when we have more objects inside containers, Python has libraries that make navigating and using the data inside those structures easier. 
+
+** IMPORTANT NOTES: **
+
+The most common mistakes when dealing with declaring variables can be avoided with certain good practices.
+
+- When declaring variables, remember that Python has certain rules. For example, Python is lower/higer case sensitive. So if you declare a variable as `name` and then call it later as `Name` it is going to raise an error of a variable that has not been declared yet.
+- 
