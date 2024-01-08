@@ -59,7 +59,7 @@ Major: Engineering
 
 For simple variables like 'name', we can just call the variable's name. For the list and dictionaries, we need to have an awareness of the amount of objects that it has, so we can call them by their index. This is easy when we can keep track of the amount of things inside these types of containers. For the cases when we have more objects inside containers, Python has libraries that make navigating and using the data inside those structures easier. 
 
-** IMPORTANT NOTES: **
+**IMPORTANT NOTES:**
 
 The most common mistakes when dealing with declaring variables can be avoided with certain good practices.
 
