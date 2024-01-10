@@ -1,0 +1,1 @@
+If you are brand new to the Python programming language, the first thing we need to do is to have it properly installed into your computer. To be able to runn a python program, you will need a Python interpreter. If you try to install Python from the official page python.org, you are esentially just downloading and executable program that operates a Python interpteter.
