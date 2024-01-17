@@ -8,12 +8,23 @@ For the example image, the page usually picks up on the operating system of the 
 
 # What are Python releases?
 
-Python is community-based and open-sourced, meaning it is free to use, and anyone can participate in improving, maintaining and releasing their own libraries. This adds great functionality to the language but also requires the periodic release of newer versions, which helps to add these newer features and fixes previous bugs. All Python versions are formatted as `A.B.C`; the first number is a major release, the second one a minor release, and the third represents patches to fix bugs. For example, as of writing this, the current release of Python is **3.12.1**. One of the most common issues with 
+Python is community-based and open-sourced, meaning it is free to use, and anyone can participate in improving, maintaining and releasing their own libraries. This adds great functionality to the language but also requires the periodic release of newer versions, which helps to add these newer features and fixes previous bugs. All Python versions are formatted as `A.B.C`; the first number is a major release, the second one a minor release, and the third represents patches to fix bugs. For example, as of writing this, the current release of Python is **3.12.1**. 
+
+## So, which Python version do I need?
+
+It is best to check the Python version that has fewer issues with the libraries and packages that you know you are going to need. For this, we will work with environments, which are little containers that will help you keep your libraries and Python versions running as smoothly as possible. But first, let's help you install Python on your computer.
 
 # For Windows:
 
+Once you download the `.exe` file of the latest Python version (right now, it is not important to look for different versions), follow the installation guide. Remember to select either the Windows x86-64 executable installer for 64-bit or the Windows x86 executable installer for 32-bit, depending on your own computer specifications. You can see which one you have by following the next steps:
 
+1. Click the start button at the bottom left corner.
+2. Select or search for "Settings"
 
+![Windows_screen](https://github.com/mayraberrones94/CCI_technical/assets/35910638/79f99bdb-7d81-40f2-ba2b-8f0b853f81e1)
+
+3. 
+4. 
 
 Installing it lets you go to your terminal and execute a Python script. Assuming that you know how to deploy and work with the terminal (command tool) in your computer, once you have an interpreter installed, you can run a Python code by going to the folder where the py file is stored (from the terminal), and run:
 
