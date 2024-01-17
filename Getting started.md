@@ -27,9 +27,20 @@ Once you download the `.exe` file of the latest Python version (right now, it is
 
 ![systems_page](https://github.com/mayraberrones94/CCI_technical/assets/35910638/7f806b9b-41eb-4418-ba89-5023705b162d)
 
-4. Scroll all the way down on the left panel and click "About". The information you need is under "Device specifications" in the System type. Please note that drivers made for the 32-bit version of Windows will not work correctly on a computer running on a 64-bit version and vice versa.
+4. Scroll all the way down on the left panel and click "About". The information you need is under "Device specifications" in the System type. 
 
 ![System_about](https://github.com/mayraberrones94/CCI_technical/assets/35910638/6c24e493-78c0-492e-9552-a10db789aa89)
+
+**IMPORTANT:** Please note that drivers made for the 32-bit version of Windows will not work correctly on a computer running on a 64-bit version and vice versa.
+
+Now that we have the correct installer for your computer run the file. A dialogue window will appear, and there are some different things we can do with it.
+
+
+![Python_setup](https://github.com/mayraberrones94/CCI_technical/assets/35910638/cd3029c1-be3f-4e1c-86e7-eab8f01a0e51)
+
+- The default path for installation is in the directory of the current Windows user. The Install launcher for all users (recommended) checkbox is checked default. This means every user on the machine will have access to the py.exe launcher. You can uncheck this box to restrict Python to the current Windows user.
+
+- 
 
 
 Installing it lets you go to your terminal and execute a Python script. Assuming that you know how to deploy and work with the terminal (command tool) in your computer, once you have an interpreter installed, you can run a Python code by going to the folder where the py file is stored (from the terminal), and run:
