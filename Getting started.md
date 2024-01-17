@@ -16,6 +16,8 @@ It is best to check the Python version that has fewer issues with the libraries 
 
 # For Windows:
 
+If you are new to Python and looking to get started quickly, you can install it by going directly to the Microsoft Store page
+
 Once you download the `.exe` file of the latest Python version (right now, it is not important to look for different versions), follow the installation guide. Remember to select either the Windows x86-64 executable installer for 64-bit or the Windows x86 executable installer for 32-bit, depending on your own computer specifications. You can see which one you have by following the next steps:
 
 1. Click the start button at the bottom left corner.
@@ -40,7 +42,9 @@ Now that we have the correct installer for your computer run the file. A dialogu
 
 - The default path for installation is in the directory of the current Windows user. The Install launcher for all users (recommended) checkbox is checked default. This means every user on the machine will have access to the py.exe launcher. You can uncheck this box to restrict Python to the current Windows user.
 
-- 
+- There is another checkbox that is unchecked by default called Add Python to PATH. There are several reasons why you might not want Python on PATH, so make sure you understand what this does before clicking on it.
+
+**IMPORTANT:** If you do not know what PATH is, we strongly recommend you use the Microsoft Store Package instead of this installer. The Microsoft package is directed to people who are new to Python and focused primarily on learning the language rather than building professional software.
 
 
 Installing it lets you go to your terminal and execute a Python script. Assuming that you know how to deploy and work with the terminal (command tool) in your computer, once you have an interpreter installed, you can run a Python code by going to the folder where the py file is stored (from the terminal), and run:
