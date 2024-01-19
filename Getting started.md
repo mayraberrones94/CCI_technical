@@ -16,7 +16,13 @@ It is best to check the Python version that has fewer issues with the libraries 
 
 # For Windows:
 
-If you are new to Python and looking to get started quickly, you can install it by going directly to the Microsoft Store page
+If your laptop is new, and you have never used it to compile a Python file, it is most likely that it does not have it installed already, but it is always good practice to check first.
+
+1. Open your Windows terminal. For Windows, you have access to different types of terminals (Windows PowerShell, Windows Terminal, Command Prompt), any of them . It should look something like this:
+
+
+
+If you are new to Python and looking to get started quickly, you can install it directly on the Microsoft Store page.
 
 Once you download the `.exe` file of the latest Python version (right now, it is not important to look for different versions), follow the installation guide. Remember to select either the Windows x86-64 executable installer for 64-bit or the Windows x86 executable installer for 32-bit, depending on your own computer specifications. You can see which one you have by following the next steps:
 
