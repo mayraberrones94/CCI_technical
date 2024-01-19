@@ -18,8 +18,10 @@ It is best to check the Python version that has fewer issues with the libraries 
 
 If your laptop is new, and you have never used it to compile a Python file, it is most likely that it does not have it installed already, but it is always good practice to check first.
 
-1. Open your Windows terminal. For Windows, you have access to different types of terminals (Windows PowerShell, Windows Terminal, Command Prompt), any of them . It should look something like this:
+1. Open your Windows terminal. For Windows, you have access to different types of terminals (Windows PowerShell, Windows Terminal, Command Prompt). They have different uses, but for this, we will look for the command prompt. It should look something like this:
 
+
+![comand_prompt](https://github.com/mayraberrones94/CCI_technical/assets/35910638/61396d83-540e-40b5-b538-42eab8bf0608)
 
 
 If you are new to Python and looking to get started quickly, you can install it directly on the Microsoft Store page.
