@@ -23,7 +23,12 @@ If your laptop is new, and you have never used it to compile a Python file, it i
 
 ![comand_prompt](https://github.com/mayraberrones94/CCI_technical/assets/35910638/61396d83-540e-40b5-b538-42eab8bf0608)
 
-When you open it, on the screen, you can write `python --version` or `python -V`. If you do not have Python installed, the prompt will take you automatically to the Microsoft Store. If not, you can follow the next steps.
+When you open it, on the screen, you can write `python --version` or `python -V`. If you have Python installed in your computer, is going to show you a message of the version and some features for your computer. If the version you have on your computer is not the newest one, do not worry about it. We will discuss how we can manage that with Python environments.
+
+![CP_pythonVersion](https://github.com/mayraberrones94/CCI_technical/assets/35910638/0ce3b3e7-e81f-44cd-910f-a2e5c45c2d6a)
+
+
+If you do not have Python installed, the prompt will take you automatically to the Microsoft Store. If not, you can follow the next steps.
 
 ## Microsoft Store install (Easiest):
 
@@ -34,11 +39,19 @@ If you are new to Python and looking to get started quickly, you can install it 
 
 **IMPORTANT**: Please ensure the application you select is created by **Python Software Foundation**. The official software is free, so if the application costs money, then it is the wrong one. Select the newest version.
 
+Once you have found the version you need to install, click get, and wait for the application to finish downloading. The `Get` button will then be replaced by `Install on my devices`, where you can decide if you want to install only on the current user or all the computers. After you select them, click install. 
 
 
+**IMPORTANT**: Please keep in mind that this is only for first-time installations. If you have Python already and want to upgrade it to a newer version, it is a completely different process that we will discuss in later posts. 
+
+If the installation was successful, you will see the message `This product is installed`. You can now access Python, including `pip` and `IDLE`. This allows you to run Python scripts in your terminal directly. 
 
 
 ## Downloading the installer (intermediate):
+
+The installation via the official page for Python is suited for more experienced developers, as it offers a lot more customization and control over the installation. 
+
+**IMPORTANT** Please note that this installation requires you to have previous knowledge of how `PATH` works. If you do not know what PATH is, we strongly recommend you use the Microsoft Store Package instead of this installer. 
 
 Once you download the `.exe` file of the latest Python version (right now, it is not important to look for different versions), follow the installation guide. Remember to select either the Windows x86-64 executable installer for 64-bit or the Windows x86 executable installer for 32-bit, depending on your own computer specifications. You can see which one you have by following the next steps:
 
