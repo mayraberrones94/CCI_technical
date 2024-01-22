@@ -1,10 +1,5 @@
 NOTE: Please complete the whole reading before installing anything, as some parts highlight older practices and do not reflect the current way to install Python.
-
-
-::: {.callout-note}
-Note that there are five types of callouts, including:
-`note`, `warning`, `important`, `tip`, and `caution`.
-:::
+<img width="1221" alt="Python_dowload" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/4be16bd1-2a57-4d33-affa-261b492bdf32">
 
 
 If you are brand new to the Python programming language, you first need to have it properly installed on your computer. To run a Python program, you will need a Python interpreter. If you try to install Python from the official page python.org, you are essentially just downloading an executable program that operates a Python interpreter and holds a large suite of useful tools and functions that you can utilize in your code. This is known as the Python standard library. 
