@@ -1,5 +1,6 @@
 NOTE: Please complete the whole reading before installing anything, as some parts highlight older practices and do not reflect the current way to install Python.
-<span style="color:blue">some *This is Blue italic.* text</span>
+
+$${\color{red}Red}$$
 
 
 If you are brand new to the Python programming language, you first need to have it properly installed on your computer. To run a Python program, you will need a Python interpreter. If you try to install Python from the official page python.org, you are essentially just downloading an executable program that operates a Python interpreter and holds a large suite of useful tools and functions that you can utilize in your code. This is known as the Python standard library. 
