@@ -18,13 +18,27 @@ It is best to check the Python version that has fewer issues with the libraries 
 
 If your laptop is new, and you have never used it to compile a Python file, it is most likely that it does not have it installed already, but it is always good practice to check first.
 
-1. Open your Windows terminal. For Windows, you have access to different types of terminals (Windows PowerShell, Windows Terminal, Command Prompt). They have different uses, but for this, we will look for the command prompt. It should look something like this:
+1. Open your Windows terminal. For Windows, you can access different types of terminals (Windows PowerShell, Windows Terminal, Command Prompt). They have different uses, but for this, we will look for the command prompt. It should look something like this:
 
 
 ![comand_prompt](https://github.com/mayraberrones94/CCI_technical/assets/35910638/61396d83-540e-40b5-b538-42eab8bf0608)
 
+When you open it, on the screen, you can write `python --version` or `python -V`. If you do not have Python installed, the prompt will take you automatically to the Microsoft Store. If not, you can follow the next steps.
 
-If you are new to Python and looking to get started quickly, you can install it directly on the Microsoft Store page.
+## Microsoft Store install (Easiest):
+
+
+If you are new to Python and looking to get started quickly, you can install it directly on the Microsoft Store page. If you followed the last steps to check if you have Python and you do not have it on your computer, most likely, the Microsoft Store app launched on its own. If not, you can search for it in the search bar. It should look something like this:
+
+![MS_python](https://github.com/mayraberrones94/CCI_technical/assets/35910638/ca41e14b-e9a9-4be9-a8c9-8b7202e697a8)
+
+**IMPORTANT**: Please ensure the application you select is created by **Python Software Foundation**. The official software is free, so if the application costs money, then it is the wrong one. Select the newest version.
+
+
+
+
+
+## Downloading the installer (intermediate):
 
 Once you download the `.exe` file of the latest Python version (right now, it is not important to look for different versions), follow the installation guide. Remember to select either the Windows x86-64 executable installer for 64-bit or the Windows x86 executable installer for 32-bit, depending on your own computer specifications. You can see which one you have by following the next steps:
 
@@ -64,5 +78,5 @@ python my_script.py
 Being 'my_script' the name of our dummy code. This will instruct the Python interpreter stored on your computer to read that file. Assuming that the code obeys the grammatical rules of Python and the instructions in the code have to provide an output, this will appear in the terminal window. Again, this is an example of a very simple code. Some codes also require input from the user, and for that, we will need further tools.
 
 
-## 
+## Windows Subsystem for Linux WSL (Advanced):
 
