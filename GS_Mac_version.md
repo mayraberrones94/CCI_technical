@@ -1,6 +1,8 @@
 # 1. Getting started - Installing Python (Mac OS)
 
-For Mac users, there are different ways to install Python: by going to the official Python page and installing it directly from the page or using the Homebrew package.
+For Mac users, there are different ways to install Python: by going to the official Python page and installing it directly from the page or using the Anaconda package (which we will show in another post).
+
+**Important** The Homebrew package manager is another popular method for installing Python on macOS. However, the Python distribution offered by Homebrew isn’t controlled by the Python Software Foundation and could change at any time. The most reliable method on macOS is to use the official installer, especially if you plan on programming Python GUI with Tkinter (Homebrew doesn’t include the Tcl/Tk dependency required by the Tkinter module).
 
 **Note:** Mac OS no longer has a pre-installed version of Python in their systems (Starting from macOS Catalina).
 
@@ -13,7 +15,7 @@ To see if you have installed any Python version, launch the terminal of your com
 1. Searching for it in the Applications folder.
 2. `Command` + `Space bar` and typing "Terminal"
 
-and type `python --version` in it and hit `Enter`. If it’s not installed, you will see `command not found: python`. If installed, it will show you which version you have installed. Alternatively, you can just type `Python`, and the terminal will automatically enter a Python running script, showing the Python version you have and the date of its release.
+and type `python --version` in it and hit `Enter`. If it’s not installed, you will see `command not found: python`. If installed, it will show you which version you have installed. Alternatively, you can type `Python`, and the terminal will automatically enter a Python running script, showing the Python version you have and the date of its release.
 
 <img width="578" alt="Python_mac" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/ff02ad0f-6b32-471e-b294-10c8b3043992">
 
@@ -27,4 +29,5 @@ Run the installer and follow the instructions. When you reach the installation t
 
 If you have partitions in your disk and want to change the installation location, you can select this by clicking the `Change Install Location` and choosing the disk you want. If not, click  `Install`. The installation might take 5 to 10 minutes, depending on your internet connectivity. When the installer is finished copying files, double-click the `Install Certificates` command in the finder window to ensure your SSL root certificates are updated.
 
+Restart your terminal (you can close it and open it in a new window) and repeat the process of checking the Python version. It should show you the version you have just installed.
 
