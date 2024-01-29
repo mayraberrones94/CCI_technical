@@ -1,0 +1,25 @@
+name: vlc_player
+channels:
+  - defaults
+dependencies:
+  - ca-certificates=2023.12.12=hecd8cb5_0
+  - libcxx=14.0.6=h9765a3e_0
+  - libffi=3.4.4=hecd8cb5_0
+  - ncurses=6.4=hcec6c5f_0
+  - openssl=3.0.12=hca72f7f_0
+  - pip=23.3.1=py39hecd8cb5_0
+  - python=3.9.18=h5ee71fb_0
+  - readline=8.2=hca72f7f_0
+  - setuptools=68.2.2=py39hecd8cb5_0
+  - sqlite=3.41.2=h6c40b1e_0
+  - tk=8.6.12=h5d9f67b_0
+  - tzdata=2023d=h04d1e81_0
+  - wheel=0.41.2=py39hecd8cb5_0
+  - xz=5.4.5=h6c40b1e_0
+  - zlib=1.2.13=h4dc903c_0
+  - pip:
+      - pyside6==6.5.2
+      - pyside6-addons==6.5.2
+      - pyside6-essentials==6.5.2
+      - python-vlc==3.0.20123
+      - shiboken6==6.5.2
