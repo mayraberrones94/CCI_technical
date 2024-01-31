@@ -19,4 +19,6 @@
 - brew install npm
 - ascii-tarot gives you a nice way of seeing the tarot cards
 
+- Try make a server with a computer. ssh.
+
 - 
