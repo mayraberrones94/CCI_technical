@@ -11,5 +11,23 @@ This image is a beautiful, chaotic example of what happens to your global enviro
 
 To avoid this, a good practice when using Python is to use **virtual environments**. This environment allows for isolating package dependencies so they do not clash. For example, you may have two projects, one for computer vision and another for Natural Language Processing (NLP). Both of them use similar libraries but in different versions of Python. We can not install both versions system-wide, but we can create isolated environments for each project.
 
+**NOTE:** These environments are called containers because they do not interact with each other. However, this is only for the system. The folders are all available for all the environments. If you change a folder inside an environment, that change is permanent, so if you open it in another environment, it will have the previous changes. 
+
+There are different ways to build Python environments:
+
+## Python environments (`venv`):
+
+For this type of environment, the only requirement for your computer is to have a version of Python installed on your computer. `venv`is a Python module that supports lightweight virtual environments. 
+
+**NOTE:** For this type of environment, you need to be familiar with how the terminal works, how you can move from one folder to another, and the Python versions you have installed. If you are unfamiliar with any of these requirements, please refer to the How to use Anaconda section.
+
+From Python 3.3, `venv` should be included in the commands available. To create a virtual environment with this:
+
+**macOS**
+
+```python
+python -m venv [name of the environment]
+```
+
 
 
