@@ -19,15 +19,18 @@ There are different ways to build Python environments:
 
 For this type of environment, the only requirement for your computer is to have a version of Python installed on your computer. `venv`is a Python module that supports lightweight virtual environments. 
 
-**NOTE:** For this type of environment, you need to be familiar with how the terminal works, how you can move from one folder to another, and the Python versions you have installed. If you are unfamiliar with any of these requirements, please refer to the How to use Anaconda section.
+**NOTE:** For this type of environment, you need to be familiar with how the terminal works, how you can move from one folder to another, and the Python versions you have installed. If you are unfamiliar with these requirements, please refer to the How to use Anaconda section.
 
-From Python 3.3, `venv` should be included in the commands available. To create a virtual environment with this:
+From Python 3.3 onwards, `venv` should be included in the commands available. To create a virtual environment with this:
 
 **macOS**
 
 ```python
 python -m venv [name of the environment]
 ```
+
+Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the rules of the terminal, which is, if you are going to name it something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
+
 
 
 
