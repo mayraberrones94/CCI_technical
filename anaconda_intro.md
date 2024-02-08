@@ -23,13 +23,15 @@ For this type of environment, the only requirement for your computer is to have 
 
 From Python 3.3 onwards, `venv` should be included in the commands available. To create a virtual environment with this:
 
+First, ensure you are in the folder where you want to save the environment. 
+
 **macOS**
 
 ```python
 python -m venv [name of the environment]
 ```
 
-Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the rules of the terminal, which is, if you are going to name it something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
+Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the rules of the terminal: if you are going to name it something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
 
 
 
