@@ -21,17 +21,34 @@ For this type of environment, the only requirement for your computer is to have 
 
 **NOTE:** For this type of environment, you need to be familiar with how the terminal works, how you can move from one folder to another, and the Python versions you have installed. If you are unfamiliar with these requirements, please refer to the How to use Anaconda section.
 
-From Python 3.3 onwards, `venv` should be included in the commands available. To create a virtual environment with this:
+From Python 3.3 onwards, `venv` should be included in the commands available. To create a virtual environment with this, please open your terminal:
 
-First, ensure you are in the folder where you want to save the environment. 
+**NOTE:** If you have not yet installed Python on your computer, please refer to the Installing Python section of the wiki.
 
 **macOS**
+
+To enter the terminal, you can search it directly from the Launchpad or application folder. For a shortcut, type `Command` + `Space bar` and type terminal. First, we need to ensure that you are in the folder where you want to save the environment. When you open the terminal, you should see only your user name:
+
+<img width="580" alt="Python_terminal" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/a6cde0f7-1573-488c-8533-aaa591dcbc96">
+
+For this example, I am going to access my Documents folder. You can access whatever folder you wish to save your environment on. 
+
+**Why is this important?** If you save a virtual environment with the same name in the same folder, the terminal is going to interpret it as you want to rewrite the environment, and you will lose the information from the previous one. Before you create new environments, make sure that the name and folder you choose are different than previous ones. 
+
 
 ```python
 python -m venv [name of the environment]
 ```
 
 Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the rules of the terminal: if you are going to name it something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
+
+The way you activate it is, while being inside the folder where you created the environment, call `source [name of the environment]/bin/activate`. The name in front of the dollar sign should change to the name of the environment you are currently on. 
+
+**Windows**
+
+For the Windows OS you also need to have previously installed Python.
+
+**IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the 
 
 
 
