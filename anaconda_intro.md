@@ -2,7 +2,7 @@
 
 Now that we have installed Python, we mentioned that it comes with certain pre-installed basic libraries. But what happens when you want to use Python for a specific task and need to install additional packages? For this, Python has enabled `pip`, a recursive acronym for "Pip Installs Packages" or "Pip Installs Python", as its package manager to automate installation, update, and package removal.
 
-However, installing new packages directly into the download of Python can have difficult consequences. This Python that we just installed is known as the **Global environment**. We mentioned that Python is an open-source interpreted programming language that goes through constant updates. For this reason, newer libraries developed on different versions of Python often go into conflict with libraries that have not gone through the same updates, and error messages start to pop up.
+However, installing new packages directly into the download of Python can have difficult consequences. This Python we just installed is the **Global environment**. We mentioned that Python is an open-source interpreted programming language that goes through constant updates. For this reason, newer libraries developed on different Python versions often conflict with libraries that have not gone through the same updates, and error messages start to pop up.
 
 ![badPythonEnv](https://github.com/mayraberrones94/CCI_technical/assets/35910638/807787ef-d5e2-4740-854b-f387b1602e90)
 Dmitriy Zub, Dec 22, 2021. Python Virtual Environments tutorial using Virtualenv and Poetry. Place of publication: SerpApi. Available from: https://serpapi.com/blog/python-virtual-environments-using-virtualenv-and-poetry/#why_venv.
@@ -15,9 +15,11 @@ To avoid this, a good practice when using Python is to use **virtual environment
 
 There are different ways to build Python environments:
 
+**Very important** Please note that all of the steps mentioned on this page are recommended from original sources; try to follow them as faithfully as possible. If, in any step, something does not work as it should, contact a technician first before following any other instructions that need you to move things directly from your terminal. 
+
 ## Python environments (`venv`):
 
-For this type of environment, the only requirement for your computer is to have a version of Python installed on your computer. `venv`is a Python module that supports lightweight virtual environments. 
+For this type of environment, the only requirement for your computer is to have a version of Python installed on it. `venv` is a Python module that supports lightweight virtual environments. 
 
 **NOTE:** For this type of environment, you need to be familiar with how the terminal works, how you can move from one folder to another, and the Python versions you have installed. If you are unfamiliar with these requirements, please refer to the How to use Anaconda section.
 
@@ -27,13 +29,13 @@ From Python 3.3 onwards, `venv` should be included in the commands available. To
 
 **macOS**
 
-To enter the terminal, you can search it directly from the Launchpad or application folder. For a shortcut, type `Command` + `Space bar` and type terminal. First, we need to ensure that you are in the folder where you want to save the environment. When you open the terminal, you should see only your user name:
+To enter the terminal, you can search it directly from the Launchpad or application folder. Type `Command` + `Space bar` and type terminal for a shortcut. First, we must ensure you are in the folder where you want to save the environment. When you open the terminal, you should see only your user name:
 
 <img width="580" alt="Python_terminal" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/a6cde0f7-1573-488c-8533-aaa591dcbc96">
 
 For this example, I am going to access my Documents folder. You can access whatever folder you wish to save your environment on. 
 
-**Why is this important?** If you save a virtual environment with the same name in the same folder, the terminal is going to interpret it as you want to rewrite the environment, and you will lose the information from the previous one. Before you create new environments, make sure that the name and folder you choose are different than previous ones. 
+**Why is this important?** If you save a virtual environment with the same name in the same folder, the terminal will interpret it as you want to rewrite it, and you will lose the information from the previous one. Before creating new environments, make sure that the name and folder you choose differ from previous ones. 
 
 
 ```python
@@ -98,10 +100,34 @@ To look something like this:
 
 <img width="449" alt="Captura de Pantalla 2024-02-13 a la(s) 10 02 38 a m" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/a11a51b0-0d4b-4028-82c0-7bb44f3d9a59">
 
-
-
+## For Windows users:
 
 <img width="1294" alt="Screenshot 2024-02-12 at 11 01 35" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/c0cd249a-581d-4802-a091-9f4a70a41d9f">
+
+
+# Installing Miniconda
+
+**Note:** Please be mindful that Miniconda has no user interface and only offers the `conda` prompt and Python. It also requires general knowledge of how the terminal works. 
+
+## Graphical installer:
+
+**macOS**
+
+You must download the Miniconda installer from the official page (https://docs.anaconda.com/free/miniconda/). From here, you can choose the Intel or the M1/2/3 chip version and the bash or pkg versions. We strongly recommend using the bash version since the pkg may skip the "Destination select" process, failing the installation.
+
+**bash** 
+- Once you download the document, locate where it is stored (it is most likely in the Downloads folder).
+- Go to a new terminal in your computer (`Command` + `Space bar` type terminal + `Enter`)
+- Go into the folder where you have the bash file stored (Ej. `cd Downloads`); you can verify it is there by running `ls`.
+- This is an optional step, but we recommend verifying the download to ensure everything will run correctly. In your terminal run `shasum -a 256 filename` replacing `filename` with the downloaded file name. If it does not raise any error, follow the next step.
+- Run  `bash <conda-installer-name>-latest-MacOSX-x86_64.sh`. Replace the `<conda-installer-name>` with the downloaded file's name.
+- Once the process is finished, please close and reopen your terminal (`Command` + `q` to close/reboot the program completely. You can see if this was successful by clicking `Command` + `tab`. It should show you all the applications you have opened. Make sure that the terminal does not show there).
+- To verify the installation, open a terminal window and run `conda list`. If you installed everything correctly, a list of all the installed packages should appear.
+
+**Windows**
+
+
+  
 
 
 
