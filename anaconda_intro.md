@@ -40,19 +40,20 @@ For this example, I am going to access my Documents folder. You can access whate
 python -m venv [name of the environment]
 ```
 
-Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the rules of the terminal: if you are going to name it something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
+Inside of the brackets, you can change it to whatever name you want. Just make sure that the name of the environment is something easy to remember, or write it down somewhere. The name should also follow the terminal rules: if you are going to name something with more than one word, you need to hyphenate the words with an underscore (_). Example: `python -m venv example_environment`.
 
-The way you activate it is, while being inside the folder where you created the environment, call `source [name of the environment]/bin/activate`. The name in front of the dollar sign should change to the name of the environment you are currently on. 
+The way you activate it is while inside the folder where you created the environment, call `source [name of the environment]/bin/activate`. The name in front of the dollar sign should change to the name of the environment you are currently in. 
 
 Example:
 
+<img width="674" alt="Captura de Pantalla 2024-02-13 a la(s) 9 29 28 a m" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/0f2a604a-8543-4a6b-b4fc-7d99161d9b29">
 
 
 **Windows**
 
 For the Windows OS you also need to have previously installed Python.
 
-**IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the environment variables of your computer. Please see the section on how to do that in the "Add path to environment" section. If you are not familiar with the path, and what it means to add it to the environment variables, please continue with the next steps.
+**IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the environment variables of your computer. Please see the section on how to do that in the "Add path to environment" section. If you are not familiar with the path and what it means to add it to the environment variables, please continue with the next steps.
 
 
 If you do not have Python in your Path, 
@@ -60,15 +61,15 @@ If you do not have Python in your Path,
 
 ## Conda environments
 
-Another way to create environments in Python is to use the Anaconda distribution. For this we have two options; we can download Anaconda from the official distribution, or we could download a more light version of Anaconda called Miniconda. 
+Another way to create environments in Python is to use the Anaconda distribution. For this, we have two options: we can download Anaconda from the official distribution or a more light version of Anaconda called Miniconda. 
 
-**Which version do I need?** Both these versions are from the same distribution and are both widely used for data science and scientific computing. The main difference between the two is the size of the installation. Anaconda requires at least 3 GB of free disk space, while Miniconda only requires 400 MB (Something you need to take into consideration if you do not have enough space available on your computer). Anaconda comes with a large array of pre-installed packages and a very user-friendly graphical interface that can favor those who are not very familiar with the use of the terminal or command line prompts. Miniconda only includes the `conda` function and Python in its installation.
+**Which version do I need?** These two versions are from the same distribution and are widely used for data science and scientific computing. The main difference between the two is the size of the installation. Anaconda requires at least 3 GB of free disk space, while Miniconda only requires 400 MB (Something you need to take into consideration if you do not have enough space available on your computer). Anaconda comes with a large array of pre-installed packages and a very user-friendly graphical interface that can favour those who are not very familiar with the use of the terminal or command line prompts. Miniconda only includes the `conda` function and Python in its installation.
 
 If you go for the Anaconda version:
 
 **macOS**
 
-If you go to the official Anaconda page (https://www.anaconda.com/download#downloads) you will see the button Download button for the OS you have. If you are using macOS, it is also important that you know if your hardware settings are an Intel chip or an M1/M2/M3 chip. 
+If you go to the official Anaconda page (https://www.anaconda.com/download#downloads), you will see the Download button for your OS. If you are using macOS, it is also important to know if your hardware settings are an Intel chip or an M1/M2/M3 chip. 
 
 <img width="1063" alt="Screenshot 2024-02-12 at 11 00 56" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/403c2bfd-05f0-4c26-abb5-14ee2977cd7d">
 
@@ -89,8 +90,13 @@ Go back to the Downloads page on Anaconda and choose the right setting for your 
 
 Once the package is done loading, you can choose the predetermined installation and click install. If your terminal was opened, please relaunch it, you will now be able to see the pre fix in your user name as `(base)`. Which means that you are in the base or root environment. We explain this later on.
 
+It goes from:
+
 <img width="403" alt="Screenshot 2024-02-12 at 11 16 26" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/cea1fe81-dda3-4c76-8025-aa09ea334856">
 
+To look something like this:
+
+<img width="449" alt="Captura de Pantalla 2024-02-13 a la(s) 10 02 38 a m" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/a11a51b0-0d4b-4028-82c0-7bb44f3d9a59">
 
 
 
