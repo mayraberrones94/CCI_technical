@@ -58,14 +58,13 @@ For the Windows OS you also need to have previously installed Python.
 **IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the environment variables of your computer. Please see the section on how to do that in the "Add path to environment" section. If you are not familiar with the path and what it means to add it to the environment variables, please continue with the next steps.
 
 
-If you do not have Python in your Path, 
-
+If you have Python already in your Path variables, you can just use the same arguments as the macOS instructions. ( Example: `python -m venv example_environment`) Please note that the same rules apply to Windows, so make sure to name the environment something unique and easy to remember, and also select the correct folder for your environment.
 
 ## Conda environments
 
 Another way to create environments in Python is to use the Anaconda distribution. For this, we have two options: we can download Anaconda from the official distribution or a more light version of Anaconda called Miniconda. 
 
-**Which version do I need?** These two versions are from the same distribution and are widely used for data science and scientific computing. The main difference between the two is the size of the installation. Anaconda requires at least 3 GB of free disk space, while Miniconda only requires 400 MB (Something you need to take into consideration if you do not have enough space available on your computer). Anaconda comes with a large array of pre-installed packages and a very user-friendly graphical interface that can favour those who are not very familiar with the use of the terminal or command line prompts. Miniconda only includes the `conda` function and Python in its installation.
+**Which version do I need?** These two versions are from the same distribution and are widely used for data science and scientific computing. The main difference between the two is the size of the installation. Anaconda requires at least 3 GB of free disk space, while Miniconda only requires 400 MB (Something you need to take into consideration if you do not have enough space available on your computer). Anaconda comes with a large array of pre-installed packages and a very user-friendly graphical interface that can favor those who are not very familiar with the use of the terminal or command line prompts. Miniconda only includes the `conda` function and Python in its installation.
 
 If you go for the Anaconda version:
 
@@ -102,7 +101,18 @@ To look something like this:
 
 ## For Windows users:
 
-<img width="1294" alt="Screenshot 2024-02-12 at 11 01 35" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/c0cd249a-581d-4802-a091-9f4a70a41d9f">
+For Windows, there is only one universal installer, so it does not matter the version of Windows that you are using. It is only important to know that it is only available for the 64-bit version. If your computer is a 32-bit, please look into the Anaconda archive (https://docs.anaconda.com/free/anaconda/install/old-os/).
+
+<img width="1048" alt="image" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/4495fa11-f067-4259-beed-dafcb5cf96e4">
+
+Follow the installation process. Same as with the Python installation, this installer is going to ask you if you want to add this software to your path variables. If you are not sure or do not understand fully what path does, do not activate this function. We can change it later on if you need it.
+
+**NOTE** If you do not want to add Conda to your path variables, you can use the command prompt directly from the Anaconda Navigator. Otherwise, all the other Windows terminals will not have the `conda` prompt.
+
+<img width="277" alt="image" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/b0051618-1bae-430c-84e6-667f521fe977">
+
+
+<img width="1179" alt="image" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/deb99628-bdf9-4f59-9a0c-1eed193f2ca1">
 
 
 # Installing Miniconda
