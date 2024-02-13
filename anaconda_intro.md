@@ -44,11 +44,58 @@ Inside of the brackets, you can change it to whatever name you want. Just make s
 
 The way you activate it is, while being inside the folder where you created the environment, call `source [name of the environment]/bin/activate`. The name in front of the dollar sign should change to the name of the environment you are currently on. 
 
+Example:
+
+
+
 **Windows**
 
 For the Windows OS you also need to have previously installed Python.
 
-**IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the 
+**IMPORTANT** If you installed Python by downloading the installer directly from the Python page, you might need to add the path to the environment variables of your computer. Please see the section on how to do that in the "Add path to environment" section. If you are not familiar with the path, and what it means to add it to the environment variables, please continue with the next steps.
+
+
+If you do not have Python in your Path, 
+
+
+## Conda environments
+
+Another way to create environments in Python is to use the Anaconda distribution. For this we have two options; we can download Anaconda from the official distribution, or we could download a more light version of Anaconda called Miniconda. 
+
+**Which version do I need?** Both these versions are from the same distribution and are both widely used for data science and scientific computing. The main difference between the two is the size of the installation. Anaconda requires at least 3 GB of free disk space, while Miniconda only requires 400 MB (Something you need to take into consideration if you do not have enough space available on your computer). Anaconda comes with a large array of pre-installed packages and a very user-friendly graphical interface that can favor those who are not very familiar with the use of the terminal or command line prompts. Miniconda only includes the `conda` function and Python in its installation.
+
+If you go for the Anaconda version:
+
+**macOS**
+
+If you go to the official Anaconda page (https://www.anaconda.com/download#downloads) you will see the button Download button for the OS you have. If you are using macOS, it is also important that you know if your hardware settings are an Intel chip or an M1/M2/M3 chip. 
+
+<img width="1063" alt="Screenshot 2024-02-12 at 11 00 56" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/403c2bfd-05f0-4c26-abb5-14ee2977cd7d">
+
+You can check this by going to the Apple at the top left corner of your screen and clicking on About this Mac. 
+
+<img width="367" alt="Screenshot 2024-02-12 at 11 04 31" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/b333860f-c459-4e52-80a2-3619dc8d4619">
+
+
+This should prompt a Window that will say the chip your computer has:
+
+<img width="295" alt="Screenshot 2024-02-12 at 11 04 45" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/e7201e37-d2a4-4a95-ae64-37902a741409">
+
+Go back to the Downloads page on Anaconda and choose the right setting for your computer. 
+
+**NOTE:** You can also click on `More info` to see all the different settings on your computer. 
+
+<img width="718" alt="Screenshot 2024-02-12 at 11 05 01" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/6d98dff9-91f8-49c2-ae6a-7fab01a50f5f">
+
+Once the package is done loading, you can choose the predetermined installation and click install. If your terminal was opened, please relaunch it, you will now be able to see the pre fix in your user name as `(base)`. Which means that you are in the base or root environment. We explain this later on.
+
+<img width="403" alt="Screenshot 2024-02-12 at 11 16 26" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/cea1fe81-dda3-4c76-8025-aa09ea334856">
+
+
+
+
+
+<img width="1294" alt="Screenshot 2024-02-12 at 11 01 35" src="https://github.com/mayraberrones94/CCI_technical/assets/35910638/c0cd249a-581d-4802-a091-9f4a70a41d9f">
 
 
 
